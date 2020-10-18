@@ -31,7 +31,6 @@ class App extends React.Component {
 
   handlechange(event){
     this.setState({country: event.target.value});
-    console.log(this.state)
   }
 
   handlesubmit(event){
